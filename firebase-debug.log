@@ -1,0 +1,26 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.8.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.1
+[debug] Time:         Tue May 16 2017 08:04:30 GMT-0500 (CDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/blog-ac9ac  
+ Tue May 16 2017 08:04:30 GMT-0500 (CDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/blog-ac9ac/tokens  
+ Tue May 16 2017 08:04:31 GMT-0500 (CDT)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Loic/Documents/blog'...
+[info] 
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/blog-ac9ac  
+ Tue May 16 2017 08:04:31 GMT-0500 (CDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/391743424640/clients/_:getWebAppConfig  
+ Tue May 16 2017 08:04:31 GMT-0500 (CDT)
+[debug] <<< HTTP RESPONSE 200
+[info] ✔  hosting: Local server: http://localhost:5000
+
